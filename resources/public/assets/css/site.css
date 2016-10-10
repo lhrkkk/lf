@@ -48,3 +48,16 @@ a:hover {
 /*}*/
 /**/
 /*img { width:100%; height: auto; }*/
+
+
+.bs-masthead {
+  color: #cdbfe3;
+  /*background-color: #563d7c;*/
+  background-color: #010485;
+  background-size:100% auto;
+
+  /*background: #010485 url('/images/labkit.png')  no-repeat;*/
+  background-image:  url('../images/labkit.png')  ;
+  background-repeat: no-repeat;
+
+}

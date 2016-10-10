@@ -12,8 +12,8 @@
     [lf.panels.about :refer [about]]
     [lf.panels.home :refer [home]]
     [lf.panels.data :refer [data]]
-    [lf.panels.trigger :refer [trigger]]
-    [lf.panels.task :refer [task]]
+    [lf.panels.analysis :refer [analysis]]
+    [lf.panels.console :refer [console]]
     [lf.panels.get-started :refer [get-started]]
     [lf.panels.try1 :refer [try1]]
 
@@ -34,10 +34,20 @@
   )
 
 ;; 根据panels生成panel-list,并生成route, nav, root-panel
-(def panels {:Labkit [home] (keyword "Get Started") [get-started]
-             :Task   [task] :Data [data] :Trigger [trigger] :About [about]
-             :new    [generate-panel "new"]
-             :try1 [try1]
+(def panels {:Labkit [home]
+             (keyword "Get Started") [get-started]
+             ;databank, analysis, console
+
+             :Databank [data]
+             :Analysis [analysis]
+             :Console   [console]
+             :About [about]
+
+
+
+             ;:new    [generate-panel "new"]
+             ;:try1 [try1]
+
              })
 
 ;panel-list is str

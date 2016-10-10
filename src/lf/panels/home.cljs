@@ -41,10 +41,14 @@
       ]
 
      [:p
-      [:a {:class "btn btn-primary btn-lg", :on-click #(dispatch [:set-active-panel (keyword "Get Started")])} "Get Started! »"]]
+      ;[:a {:class "btn btn-primary btn-lg", :on-click #(dispatch [:set-active-panel (keyword "Get Started")])} "Get Started! »"]
+      [:a {:class "btn btn-primary btn-lg", :href "#/Get Started" } "Get Started! »"]
+      ]
      [:ul {:class "bs-masthead-links"}
       [:li
-       [:a {:href "http://labkit.readthedocs.org/en/latest/"} "Read doc guides »"]]
+       [:a {:href "http://labkit.readthedocs.org/en/latest/"} "Read doc guides »"]
+       ;[:a {:href "file:///Users/lhr/_env/sites/91/labkit/docs/_build/html/index.html"} "Read doc guides »"]
+       ]
       [:li
        [:a {:href "https://groups.google.com/forum/?fromgroups#!forum/labkit"} "Join the Mailing List »"]]
       [:li

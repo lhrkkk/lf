@@ -18,7 +18,7 @@
 (defn data []
   [:div
    [:div.container
-    [:h2 "Database query, display and analysis"]
+    [:h2 "Databank query, display, download"]
     ;[tasks-list]
     ;[request-tasks-button]
     ;[ajax-text]

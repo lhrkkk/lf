@@ -1,4 +1,4 @@
-(ns lf.panels.trigger
+(ns lf.panels.analysis
   (:require [reagent.core :as reagent :refer [atom]]
             [re-frame.core :refer [subscribe dispatch]]
             [re-com.core :refer [h-box v-box box gap line row-button button label checkbox horizontal-bar-tabs vertical-bar-tabs title p]
@@ -59,3 +59,14 @@
                 ]]
 
     ]])
+
+
+(defn analysis []
+      [:div
+       [:div.container
+        [:h2 "Data analysis, graph, visualization"]
+
+
+        ]]
+
+      )

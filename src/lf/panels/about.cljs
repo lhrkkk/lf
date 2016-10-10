@@ -71,7 +71,8 @@
    [:div.container
     [h-box
      ;:align :bottom
-     :children [[:h2 "About Labit"] [clock]]]
+     :children [[:h2 "About Labit"]
+                ]]
     [:p {:class "lead"} "The Most Advanced Biopyhsics Computing, Analysis, and Algorithm Developement System"]
-
+    [clock]
     ]])
